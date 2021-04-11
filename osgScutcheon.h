@@ -1,4 +1,9 @@
-﻿#ifndef OSGSCUTCHEON_H
+/**
+* @brief 标牌
+* @author hph
+* @date 2018/07/07
+*/
+#ifndef OSGSCUTCHEON_H
 #define OSGSCUTCHEON_H
 
 //#include "Windows.h"
@@ -17,8 +22,11 @@
 #define FONT_TEXT "fonts/simhei.ttf"
 #define TITLE_IMAGE "../publish/data/texture/mark/label_title.png"
 #define ITEM_IAMGE "../publish/data/texture/mark/label_normal_01.png"
+//标牌二级菜单
 class ImageLabel;
+//标牌一级菜单
 class osgScutcheonMenu;
+
 /**标牌
  * @brief The osgScutcheon class
  */
